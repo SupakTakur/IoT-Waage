@@ -1,5 +1,7 @@
 # Zeitplan
 
+## Meilensteine
+
 | Aufgabe                          | Geschätzte Zeit (Stunden) | Bemerkungen                                      | Soll Beendet | Ist Beendet |
 |----------------------------------|----------------------------|--------------------------------------------------|--------------|-------------|
 | Recherche & Verständnis          | 6–10                       | Verstehen von HX711, ESP32, OneWire, OLED        | 3.12         |             |
