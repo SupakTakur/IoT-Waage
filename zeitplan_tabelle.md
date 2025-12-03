@@ -15,3 +15,24 @@
 | Dokumentation (Word)             | 15–20                      | Screenshots, Erklärungen, Struktur                | 23.1         |             |
 | GitHub-Aufbereitung              | 2–4                        | Repository aufräumen, README                      | 25.1         |             |
 
+---
+
+## Soll
+
+| Tag       | KW49               | KW50               | KW51           | KW2      | KW3        | KW4     |
+|-----------|--------------------|---------------------|----------------|----------|------------|---------|
+| Montag    | Recherche          | Teller Designen     | WLAN InfluxDB  | Doku     | 3D-Design  | Testen  |
+| Mittwoch  | GitHub erweitern   | Waage konfigurieren | Schematic      | x        | 3D-Design  | Doku    |
+| Donnerstag| OLED Code schreiben| Doku                | Schematic      | Doku     | 3D-Design  | Doku    |
+| Freitag   | Temp testen        | Prototyp Aufbau     | Schematic      | Doku     | Testen     | Doku    |
+
+---
+
+## Ist
+
+| Tag       | KW49 | KW50 | KW51 | KW2 | KW3 | KW4 |
+|-----------|------|------|------|-----|-----|-----|
+| Montag    |      |      |      |     |     |     |
+| Mittwoch  |      |      |      |     |     |     |
+| Donnerstag|      |      |      |     |     |     |
+| Freitag   |      |      |      |     |     |     |
