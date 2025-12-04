@@ -35,7 +35,7 @@
 
 | Tag       | KW49 | KW50 | KW51 | KW2 | KW3 | KW4 |
 |-----------|------|------|------|-----|-----|-----|
-| Montag    |      |      |      |     |     |     |
-| Mittwoch  |      |      |      |     |     |     |
+| Montag    | Rechechiert     |      |      |     |     |     |
+| Mittwoch  | GitHub erweitert     |      |      |     |     |     |
 | Donnerstag|      |      |      |     |     |     |
 | Freitag   |      |      |      |     |     |     |
