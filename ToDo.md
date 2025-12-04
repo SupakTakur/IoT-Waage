@@ -1,6 +1,6 @@
 # To-Do’s
 
-## Recherchieren
+## ~~Recherchieren~~
 
 ## Hardware
 - 3D-Design
@@ -16,12 +16,12 @@
 - Testen
 
 ## Software
-- OLED ausprobieren
+- ~~OLED ausprobieren~~
 - TEMP-Sensor ausprobieren
 - XFW ausprobieren
 - WLAN & InfluxDB einrichten
 
 ## Dokumentation
 - Journal
-- Zeitplan
+- ~~Zeitplan~~
 - GitHub
