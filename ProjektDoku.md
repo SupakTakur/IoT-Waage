@@ -3,19 +3,19 @@
 ## Inhaltsverzeichnis
 
 1.  [Einleitung](#1-einleitung)
-    -   [Projektauftrag](#11-projektauftrag)\
-    -   [Zielsetzung](#12-zielsetzung)\
-    -   [Rahmenbedingungen](#13-rahmenbedingungen)\
-2.  [Grundlagen & Theorie](#2-grundlagen--theorie)\
-3.  [Anforderungen](#3-anforderungen)\
-4.  [Projektplanung](#4-projektplanung)\
-5.  [Mechanischer Aufbau](#5-mechanischer-aufbau)\
-6.  [Elektronischer Aufbau](#6-elektronischer-aufbau)\
-7.  [Softwareentwicklung](#7-softwareentwicklung)\
-8.  [Inbetriebnahme & Tests](#8-inbetriebnahme--tests)\
-9.  [Ergebnisse & Visualisierung](#9-ergebnisse--visualisierung)\
-10. [Fazit](#10-fazit)\
-11. [Journal (Arbeitstagebuch)](#11-journal-arbeitstagebuch)\
+    -   [Projektauftrag](#11-projektauftrag)
+    -   [Zielsetzung](#12-zielsetzung)
+    -   [Rahmenbedingungen](#13-rahmenbedingungen)
+2.  [Grundlagen & Theorie](#2-grundlagen--theorie)
+3.  [Anforderungen](#3-anforderungen)
+4.  [Projektplanung](#4-projektplanung)
+5.  [Mechanischer Aufbau](#5-mechanischer-aufbau)
+6.  [Elektronischer Aufbau](#6-elektronischer-aufbau)
+7.  [Softwareentwicklung](#7-softwareentwicklung)
+8.  [Inbetriebnahme & Tests](#8-inbetriebnahme--tests)
+9.  [Ergebnisse & Visualisierung](#9-ergebnisse--visualisierung)
+10. [Fazit](#10-fazit)
+11. [Journal (Arbeitstagebuch)](#11-journal-arbeitstagebuch)
 12. [Anhang](#12-anhang)
 
 ------------------------------------------------------------------------
@@ -33,18 +33,18 @@ visualisiert werden. Alles wird auf GitHub veröffentlicht.
 
 ## 1.2 Zielsetzung
 
--   Zuverlässige Gewichtsmessung\
--   Temperaturmessung\
--   Senden der Daten an InfluxDB\
+-   Zuverlässige Gewichtsmessung
+-   Temperaturmessung
+-   Senden der Daten an InfluxDB
 -   Darstellung auf OLED
 
 ## 1.3 Rahmenbedingungen
 
--   Zeitraum: 120h\
--   Arbeitsumgebung: Labor\
--   Software: Arduino IDE\
--   Komponenten: ESP32, HX711, DS18B20\
--   Keine Tara-Funktion\
+-   Zeitraum: 120h
+-   Arbeitsumgebung: Labor
+-   Software: Arduino IDE
+-   Komponenten: ESP32, HX711, DS18B20
+-   Keine Tara-Funktion
 -   Interner Gebrauch
 
 ------------------------------------------------------------------------
@@ -165,7 +165,7 @@ visualisiert werden. Alles wird auf GitHub veröffentlicht.
 
 ## Tag 1
 
-**Ziel:** Recherche\
+**Ziel:** Recherche
 **Gearbeitete Stunden:** 7
 
 Ich habe mich intensiv in den HX711 eingearbeitet, Schema analysiert,
@@ -181,7 +181,7 @@ Projektplanung gestartet.
 
 ## Tag 2
 
-**Ziel:** Grundstruktur & Meilensteine\
+**Ziel:** Grundstruktur & Meilensteine
 **Gearbeitete Stunden:** 3
 
 Ich habe die Dokumentation weitergeführt, Zeitplan überarbeitet,
