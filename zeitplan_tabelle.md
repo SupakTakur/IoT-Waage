@@ -4,8 +4,8 @@
 
 | Aufgabe                            | Geschätzte Zeit (Stunden) | Ist Zeit (Stunden) | Bemerkungen                                      | Soll Beendet | Ist Beendet |
 |------------------------------------|----------------------------|-------------------------|--------------------------------------------------|--------------|-------------|
-| Recherche & Verständnis            | 6–10                       |                         | Verstehen von HX711, ESP32, OneWire, OLED        | 3.12         |             |
-| Projektplanung                     | 3–5                        |                         | Grundstruktur & Meilensteine erstellen            | 3.12         |             |
+| Recherche & Verständnis            | 6–10                       |  8                       | Verstehen von HX711, ESP32, OneWire, OLED        | 3.12         |    3.12.         |
+| Projektplanung                     | 3–5                        |  2                       | Grundstruktur & Meilensteine erstellen            | 3.12         |    3.12.         |
 | CAD-Design (SolidWorks + 3D-Druck) | 10–15                      |                         | Modellierung + Druck + Anpassungen                | 16.1         |             |
 | Schaltplan (KiCad)                 | 6–10                       |                         | Sauberer Schaltplan mit Labels                    | 19.12        |             |
 | Stückliste (BOM)                   | 2–3                        |                         | Bauteile, Preise, Bestellnummern                  | 19.12        |             |
