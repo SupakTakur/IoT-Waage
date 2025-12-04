@@ -1,4 +1,4 @@
-# IoT-Waage (ESP32, HX711, DS18B20, OLED)
+# IoT-Waage
 
 Eine IoT-fähige Waage mit ESP32, HX711-Verstärker und DS18B20-Temperatursensor.  
 Die Waage misst in einem festen Intervall das Gewicht und die Temperatur einer Last, zeigt die Werte auf einem OLED an und sendet sie zusätzlich an eine InfluxDB, wo sie mit Grafana visualisiert werden können. 
