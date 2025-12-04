@@ -15,7 +15,7 @@
 8.  [Inbetriebnahme & Tests](#8-inbetriebnahme--tests)
 9.  [Ergebnisse & Visualisierung](#9-ergebnisse--visualisierung)
 10. [Fazit](#10-fazit)
-11. [Journal (Arbeitstagebuch)](#11-journal-arbeitstagebuch)
+11. [Journal](#11-journal-arbeitstagebuch)
 12. [Anhang](#12-anhang)
 
 ------------------------------------------------------------------------
@@ -161,7 +161,7 @@ visualisiert werden. Alles wird auf GitHub veröffentlicht.
 
 ------------------------------------------------------------------------
 
-# 11. Journal (Arbeitstagebuch)
+# 11. Journal
 
 ## Tag 1
 
