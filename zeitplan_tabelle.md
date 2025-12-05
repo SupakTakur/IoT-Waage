@@ -37,5 +37,5 @@
 |-----------|------|------|------|-----|-----|-----|
 | Montag    | Rechechiert     |      |      |     |     |     |
 | Mittwoch  | GitHub erweitert     |      |      |     |     |     |
-| Donnerstag|      |      |      |     |     |     |
+| Donnerstag| OLED Code geschrieben     |      |      |     |     |     |
 | Freitag   |      |      |      |     |     |     |
