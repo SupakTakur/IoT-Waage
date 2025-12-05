@@ -15,8 +15,7 @@
 8.  [Inbetriebnahme & Tests](#8-inbetriebnahme--tests)
 9.  [Ergebnisse & Visualisierung](#9-ergebnisse--visualisierung)
 10. [Fazit](#10-fazit)
-11. [Journal](#11-journal)
-12. [Anhang](#12-anhang)
+11. [Anhang](#12-anhang)
 
 ------------------------------------------------------------------------
 
@@ -161,60 +160,16 @@ visualisiert werden. Alles wird auf GitHub veröffentlicht.
 
 ------------------------------------------------------------------------
 
-# 11. Journal
+# 11. Anhang
 
-## Tag 1
+## 11.1 Schaltpläne
 
-**Ziel:** Recherche
-**Gearbeitete Stunden:** 7
+## 11.2 CAD-Zeichnungen
 
-Ich habe mich intensiv in den HX711 eingearbeitet, Schema analysiert,
-Recherchen durchgeführt, ein GitHub-Repository erstellt und
-strukturiert, den Temperatursensor recherchiert und Datenblätter
-abgelegt. Zusätzlich habe ich Grundlagen zu Wägezellen erarbeitet, ein
-3D-Grobkonzept erstellt, das Inhaltsverzeichnis aufgebaut und mit der
-Projektplanung gestartet.
+## 11.3 Stückliste
 
-**Ziel:** erreicht
+## 11.4 Quellcode
 
-------------------------------------------------------------------------
+## 11.5 Datenblätter
 
-## Tag 2
-
-**Ziel:** Grundstruktur & Meilensteine
-**Gearbeitete Stunden:** 3
-
-Ich habe die Dokumentation weitergeführt, Zeitplan überarbeitet,
-Einführung in Markdown-Files erhalten und GitHub aktualisiert. Alle
-Dateien wurden in MD konvertiert und das Repository sauber strukturiert.
-Meilensteine wurden definiert und der Aufbau eines professionellen Repos
-recherchiert.
-
-**Ziel:** erreicht
-
-------------------------------------------------------------------------
-
-## Tag 3
-
-**Ziel:** OLED-Display erfolgreich ansteuern
-**Gearbeitete Stunden:** 6
-
-Ich habe die Projektdokumentation in Markdown umgewandelt und weiter daran gearbeitet sowie das README erstellt. Nachdem ich mit Alex besprochen hatte, wie eine klare und gut strukturierte README aufgebaut sein sollte, habe ich diese überarbeitet und verbessert. Beim OLED-Display stellte ich fest, dass auf der Rückseite die Adresse 0x78 angegeben war, das Display jedoch nicht funktionierte. Zur Überprüfung nutzte ich einen I²C-Scanner, der die korrekte Adresse bestätigte. Da das Display mit dem ursprünglichen SSD1306-Code nur fehlerhafte Zeichen ausgab, vermutete ich eine falsche Display-Bibliothek. Nach Installation der U8g2-Library und mehreren Tests stellte ich fest, dass das Modul einen SH1106-Controller besitzt. Nach Anpassung des Codes und der verwendeten Library konnte ich das Display erfolgreich in Betrieb nehmen und die Erkenntnisse dokumentieren.
-
-**Ziel:** erreicht
-
-------------------------------------------------------------------------
-
-# 12. Anhang
-
-## 12.1 Schaltpläne
-
-## 12.2 CAD-Zeichnungen
-
-## 12.3 Stückliste
-
-## 12.4 Quellcode
-
-## 12.5 Datenblätter
-
-## 12.6 GitHub-Link
+## 11.6 GitHub-Link
