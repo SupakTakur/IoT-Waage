@@ -41,3 +41,8 @@ Ich habe die Projektdokumentation in Markdown umgewandelt und weiter daran gearb
 **Ziel:** erreicht
 
 ------------------------------------------------------------------------
+
+## Tag 4
+
+**Ziel:** Temp-Sensor erfolgreich ansteuern
+**Gearbeitete Stunden:**
