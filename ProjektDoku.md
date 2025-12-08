@@ -6,16 +6,70 @@
     -   [Projektauftrag](#11-projektauftrag)
     -   [Zielsetzung](#12-zielsetzung)
     -   [Rahmenbedingungen](#13-rahmenbedingungen)
+
 2.  [Grundlagen & Theorie](#2-grundlagen--theorie)
+    - [Wägezellen & HX711](#21-wägezellen--hx711)
+    - [ESP32 Grundlagen](#22-esp32-grundlagen)
+    - [DS18B20 Grundlagen](#23-ds18b20-grundlagen)
+    - [OLED und I²C](#24-oled-und-i²c)
+    - [IoT-Architektur (InfluxDB & Grafana)](#25-iot-architektur-influxdb--grafana)
+
 3.  [Anforderungen](#3-anforderungen)
+    - [Funktionale Anforderungen](#31-funktionale-anforderungen)
+    - [Nicht-funktionale Anforderungen](#32-nicht-funktionale-anforderungen)
+    - [Abnahmekriterien](#33-abnahmekriterien)
+    - [Risiken & Herausforderungen](#34-risiken--herausforderungen)
+
 4.  [Projektplanung](#4-projektplanung)
+    - [Projektstruktur](#41-projektstruktur)
+    - [Zeitplan](#42-zeitplan)
+    - [Meilensteine](#43-meilensteine)
+    - [Aufwandsschätzung](#44-aufwandsschätzung)
+    - [Arbeitsmethode](#45-arbeitsmethode)
+
 5.  [Mechanischer Aufbau](#5-mechanischer-aufbau)
+    - [Komponenten & Materialien](#51-komponenten--materialien)
+    - [Mechanisches Konzept](#52-mechanisches-konzept)
+    - [CAD-Modelle](#53-cad-modelle)
+    - [Belastungstests](#54-belastungstests)
+
 6.  [Elektronischer Aufbau](#6-elektronischer-aufbau)
+    - [Schaltplan](#61-schaltplan)
+    - [Pinbelegung](#62-pinbelegung)
+    - [Verkabelung](#63-verkabelung)
+    - [Stromversorgung](#64-stromversorgung)
+
 7.  [Softwareentwicklung](#7-softwareentwicklung)
+    - [Softwarearchitektur](#71-softwarearchitektur)
+    - [Kalibrierung](#72-kalibrierung)
+    - [Temperaturmessung](#73-temperaturmessung)
+    - [OLED-Ausgabe](#74-oled-ausgabe)
+    - [WLAN & InfluxDB](#75-wlan--influxdb)
+    - [Fehlerhandling](#76-fehlerhandling)
+
 8.  [Inbetriebnahme & Tests](#8-inbetriebnahme--tests)
+    - [Einzelkomponententests](#81-einzelkomponententests)
+    - [Integrationstests](#82-integrationstests)
+    - [Belastungstest](#83-belastungstest)
+    - [Genauigkeitsanalyse](#84-genauigkeitsanalyse)
+
 9.  [Ergebnisse & Visualisierung](#9-ergebnisse--visualisierung)
+    - [Beispielmessungen](#91-beispielmessungen)
+    - [Grafana Screenshots](#92-grafana-screenshots)
+    - [Bewertung](#93-bewertung)
+
 10. [Fazit](#10-fazit)
+    - [Reflexion](#101-reflexion)
+    - [Verbesserungsansätze](#102-verbesserungsansätze)
+    - [Ausblick](#103-ausblick)
+
 11. [Anhang](#11-anhang)
+    - [Schaltpläne](#111-schaltpläne)
+    - [CAD-Zeichnungen](#112-cad-zeichnungen)
+    - [Stückliste](#113-stückliste)
+    - [Quellcode](#114-quellcode)
+    - [Datenblätter](#115-datenblätter)
+    - [GitHub-Link](#116-github-link)
 
 ------------------------------------------------------------------------
 
