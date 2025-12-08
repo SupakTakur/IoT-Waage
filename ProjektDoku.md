@@ -27,7 +27,7 @@ Es soll eine elektronische IoT-Waage gebaut werden, welche periodisch
 (alle 60 Sekunden) das Gewicht der Last in kg misst. Zusätzlich soll die
 Temperatur der Last gemessen werden. Diese Messwerte sollen auf einem
 OLED-Display dargestellt und gleichzeitig via WLAN in eine
-InfluxDB-Datenbank gespeichert werden. Die Werte können via Grafana
+InfluxDB-Datenbank gespeichert werden. Die Werte können via GrafanaDB
 visualisiert werden. Alles wird auf GitHub veröffentlicht.
 
 ## 1.2 Zielsetzung
@@ -52,13 +52,33 @@ visualisiert werden. Alles wird auf GitHub veröffentlicht.
 
 ## 2.1 Wägezellen & HX711
 
+Wägezellen basieren meist auf Dehnungsmessstreifen (DMS), die in einer Wheatstone-Brücke verschaltet sind. Wird die Zelle belastet, verändert sich der elektrische Widerstand der DMS minimal, wodurch eine sehr kleine Spannungsänderung entsteht. Diese Differenzspannung liegt typischerweise im Millivolt-Bereich und muss verstärkt und digitalisiert werden.
+
+Der HX711 ist ein speziell für Wägezellen entwickelter 24-Bit-Analog-Digital-Wandler mit integriertem Verstärker. Er verstärkt die geringe Brückenspannung und wandelt sie in digitale Messwerte um, die seriell über zwei Pins (DOUT und SCK) ausgelesen werden können. Er ermöglicht eine hohe Messauflösung und eignet sich dadurch gut für Präzisionswaagen.
+
 ## 2.2 ESP32 Grundlagen
+
+Der ESP32 ist ein Mikrocontroller mit integrierter WLAN- und Bluetooth-Funktionalität und eignet sich daher besonders für IoT-Anwendungen. Er verfügt über eine Vielzahl von GPIOs, unterstützt mehrere Kommunikationsprotokolle wie I²C, SPI, UART und OneWire und bietet ausreichend Rechenleistung für Sensorverarbeitung, Datenübertragung und interne Logik.
+
+Für dieses Projekt übernimmt der ESP32 die Messwerterfassung, die Datenverarbeitung und die Kommunikation mit der Datenbank. Zudem steuert er Peripheriegeräte wie das OLED-Display und den Temperatursensor.
 
 ## 2.3 DS18B20 Grundlagen
 
+Der DS18B20 ist ein digitaler Temperatursensor, der über das OneWire-Protokoll kommuniziert. Dieses benötigt nur eine einzige Datenleitung, über die sowohl die Kommunikation als auch die Identifikation erfolgt. Jede DS18B20-Einheit besitzt eine weltweit eindeutige 64-Bit-ID, wodurch mehrere Sensoren auf derselben Leitung betrieben werden können.
+
+Der Sensor liefert Temperaturwerte zwischen −55 °C und +125 °C mit einer typischen Genauigkeit von ±0.5 °C im Bereich um 25 °C. Er kann normal mit drei Leitungen betrieben oder über „Parasite Power“ mit nur zwei Leitungen versorgt werden.
+
 ## 2.4 OLED und I²C
 
+OLED-Displays bestehen aus selbstleuchtenden Pixeln und benötigen daher keine Hintergrundbeleuchtung. Typische Module im Embedded-Bereich, wie 128×64-Pixel-Displays, verwenden den I²C-Bus zur Kommunikation. I²C arbeitet mit zwei Leitungen (SDA und SCL) und ermöglicht das parallele Betreiben mehrerer Geräte am selben Bus, die jeweils über eine eindeutige Adresse angesprochen werden.
+
+Im Projekt dient das OLED-Display zur visuellen Ausgabe der Gewichtswerte und Statusinformationen. Durch die geringe Leistungsaufnahme und die einfache Ansteuerung eignet es sich gut für kompakte IoT-Systeme.
+
 ## 2.5 IoT-Architektur (InfluxDB & Grafana)
+
+Für die Speicherung und Visualisierung der Messdaten wird eine IoT-Architektur verwendet, die auf einer Zeitreihendatenbank basiert. Der ESP32 übermittelt die erfassten Werte über WLAN an eine InfluxDB-Instanz. InfluxDB ist optimiert für zeitbasierte Daten und erlaubt effizientes Speichern, Abfragen und Verarbeiten von Messreihen.
+
+Zur Darstellung der Daten wird Grafana eingesetzt. Grafana ermöglicht das Erstellen interaktiver Dashboards, in denen Gewichtswerte, Temperaturverläufe und weitere Parameter übersichtlich visualisiert werden können. Die Kombination aus InfluxDB und Grafana bildet damit eine robuste Grundlage für die Analyse und Überwachung des Systems.
 
 ------------------------------------------------------------------------
 
