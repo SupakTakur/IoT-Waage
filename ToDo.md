@@ -19,7 +19,9 @@
 - ~~OLED ausprobieren~~
 - ~~TEMP-Sensor ausprobieren~~
 - XFW ausprobieren
+- Waage konfiguieren
 - WLAN & InfluxDB einrichten
+- Code zusammenfügen
 
 ## Dokumentation
 - Journal
