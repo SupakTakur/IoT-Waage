@@ -61,9 +61,6 @@ Details zur IoT-Architektur (Topics, Messintervalle, Datenstruktur etc.) werden 
 
 ## 🚀 Getting Started (Kurz)
 
-> Die README gibt hier bewusst nur einen Überblick.  
-> Alle Details (Pinbelegung, Kalibrierung, genaue Installationsschritte) stehen in der Projektdokumentation.
-
 ### Voraussetzungen
 
 - Installierte Arduino IDE oder ein anderes ESP32-kompatibles Tooling  
