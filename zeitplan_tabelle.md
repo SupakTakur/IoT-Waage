@@ -38,4 +38,4 @@
 | Montag    | Rechechiert     |      |      |     |     |     |
 | Mittwoch  | GitHub erweitert     |      |      |     |     |     |
 | Donnerstag| OLED Code geschrieben     |      |      |     |     |     |
-| Freitag   |      |      |      |     |     |     |
+| Freitag   | Temp getestet     |      |      |     |     |     |
