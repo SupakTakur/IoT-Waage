@@ -48,3 +48,8 @@ Ich habe die Projektdokumentation in Markdown umgewandelt und weiter daran gearb
 **Gearbeitete Stunden:** 5
 
 Ich habe das Datenblatt des DS18B20 studiert und gelernt, dass der Sensor über das OneWire-Protokoll kommuniziert und dadurch nur eine einzige Datenleitung für die Datenübertragung benötigt. Der Sensor liefert digitale Temperaturwerte, die sich direkt auslesen lassen, ohne dass eine zusätzliche Analogverarbeitung nötig ist. Anschliessend habe ich den Code geschrieben und den DS18B20 erfolgreich zum Laufen gebracht.
+
+**Ziel:** erreicht
+
+------------------------------------------------------------------------
+
