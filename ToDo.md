@@ -17,7 +17,7 @@
 
 ## Software
 - ~~OLED ausprobieren~~
-- TEMP-Sensor ausprobieren
+- ~~TEMP-Sensor ausprobieren~~
 - XFW ausprobieren
 - WLAN & InfluxDB einrichten
 
