@@ -152,6 +152,30 @@ Zur Darstellung der Daten wird Grafana eingesetzt. Grafana ermöglicht das Erste
 
 ## 4.1 Projektstruktur
 
+Um das Projekt übersichtlich und gut planbar zu machen, habe ich es in mehrere Hauptbereiche aufgeteilt. Jeder Bereich deckt einen bestimmten Teil der Arbeit ab, und zusammen ergeben sie das komplette IoT-Waagen-System. Durch diese Struktur konnte ich Schritt für Schritt arbeiten, ohne den Überblick zu verlieren.
+
+Die Projektstruktur besteht aus folgenden Teilen:
+
+- **Mechanik:**  
+  Aufbau der Waage mit vier Wägezellen und zwei Metallplatten. Dazu gehört das Positionieren der Elemente, die Stabilität der Konstruktion und das Erstellen von CAD-Modellen in SolidWorks.
+
+- **Elektronik:**  
+  Verdrahten und Anschliessen aller Komponenten (ESP32, HX711, DS18B20, OLED). Auch die Pinbelegung, Stromversorgung und der Schaltplan in KiCad gehören in diesen Bereich.
+
+- **Software:**  
+  Programmierung des ESP32 mit der Arduino IDE. Dazu zählen das Auslesen der Wägezellen, die Kalibrierung, die Temperaturmessung, die Anzeige auf dem OLED und das Senden der Daten an die InfluxDB.
+
+- **Tests & Kalibrierung:**  
+  Überprüfen der einzelnen Module, Belastungstests, Genauigkeitsmessungen und die Kalibrierung der Waage mit Referenzgewichten. Hier wird geschaut, ob die Waage zuverlässig arbeitet.
+
+- **Datenanbindung (InfluxDB & Grafana):**  
+  Einrichten der Verbindung zur Datenbank, Testen der Übertragung und Kontrolle der Messwerte in Grafana. So wird sichtbar, wie sich die Werte über die Zeit verändern.
+
+- **Dokumentation & Journal:**  
+  Schreiben der Projektunterlagen, Festhalten des täglichen Arbeitsfortschritts im Journal und Erstellen des GitHub-Repositories. Dadurch bleibt das Projekt vollständig nachvollziehbar.
+
+Diese Struktur hilft dabei, das Projekt sauber zu gliedern und jeden Teil separat behandeln zu können. Wenn irgendwo ein Problem auftaucht, kann ich dank dieser Aufteilung schnell erkennen, in welchem Bereich es entsteht und wie ich es am besten angehe.
+
 ## 4.2 Zeitplan
 
 ## 4.3 Meilensteine
@@ -159,6 +183,18 @@ Zur Darstellung der Daten wird Grafana eingesetzt. Grafana ermöglicht das Erste
 ## 4.4 Aufwandsschätzung
 
 ## 4.5 Arbeitsmethode
+
+Für dieses Projekt habe ich versucht, möglichst strukturiert und Schritt für Schritt zu arbeiten. Damit ich den Überblick behalte, habe ich das Projekt in mehrere Bereiche eingeteilt: Mechanik, Elektronik, Software, Tests und Dokumentation. So konnte ich mich immer auf einen Teil konzentrieren, ohne alles gleichzeitig machen zu müssen.
+
+Ich habe ein GitHub-Repository erstellt, in dem ich meinen Code und wichtige Dateien gespeichert habe. Dadurch konnte ich Änderungen sauber festhalten und jederzeit auf ältere Versionen zurückgreifen. Für den Schaltplan habe ich KiCad verwendet und die mechanischen Teile mit SolidWorks modelliert. Programmiert wurde alles in der Arduino IDE, weil ich damit am schnellsten vorankomme.
+
+Beim Arbeiten bin ich nach dem Prinzip vorgegangen, zuerst jede Komponente einzeln zu testen. Also z. B. zuerst den HX711, dann den Temperatursensor, dann das OLED. Wenn etwas nicht funktioniert hat, konnte ich so viel einfacher herausfinden, wo der Fehler liegt. Erst als alle Module einzeln liefen, habe ich sie zusammengebaut und weiter getestet.
+
+Während des gesamten Projekts habe ich ein tägliches Journal geführt, in dem ich festgehalten habe, was ich gemacht habe, welche Probleme aufgetaucht sind und wie ich sie gelöst habe. Das hilft nicht nur für die Doku, sondern auch, um später nachzuvollziehen, warum ich etwas auf eine bestimmte Art gemacht habe.
+
+Die Dokumentation habe ich parallel zum Projekt geschrieben und am Schluss nochmals alles sauber zusammengestellt.
+
+Diese Arbeitsweise hat mir geholfen, das Projekt klar zu strukturieren und Probleme schnell zu erkennen und zu lösen.
 
 ------------------------------------------------------------------------
 
