@@ -4,7 +4,7 @@
 
 ## Hardware
 - 3D-Design
-  - Teller
+  - ~~Teller~~
   - Gehäuse
 - Proto-Typ Aufbau
 
@@ -20,7 +20,7 @@
 - ~~TEMP-Sensor ausprobieren~~
 - XFW ausprobieren
 - Waage konfiguieren
-- WLAN & InfluxDB einrichten
+- ~~WLAN & InfluxDB einrichten~~
 - Code zusammenfügen
 
 ## Dokumentation
