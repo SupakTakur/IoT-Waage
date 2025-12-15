@@ -35,7 +35,7 @@
 
 | Tag       | KW49 | KW50 | KW51 | KW2 | KW3 | KW4 |
 |-----------|------|------|------|-----|-----|-----|
-| Montag    | Rechechiert     |      |      |     |     |     |
-| Mittwoch  | GitHub erweitert     |      |      |     |     |     |
-| Donnerstag| OLED Code geschrieben     |      |      |     |     |     |
-| Freitag   | Temp getestet     |      |      |     |     |     |
+| Montag    | Rechechiert     | Teller am Designen     |      |     |     |     |
+| Mittwoch  | GitHub erweitert     | Doku weitergeschreiben     |      |     |     |     |
+| Donnerstag| OLED Code geschrieben     | Teller Designet     |      |     |     |     |
+| Freitag   | Temp getestet     | Waage am Konfiguiren     |      |     |     |     |
