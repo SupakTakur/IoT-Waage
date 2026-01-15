@@ -6,22 +6,17 @@
 - 3D-Design
   - ~~Teller~~
   - Gehäuse
-- Proto-Typ Aufbau
-
-## Schematic
-- LayOut
-- BOM
-- Bestellen
-- Bestücken
-- Testen
+- ~~Proto-Typ Aufbau~~
 
 ## Software
 - ~~OLED ausprobieren~~
 - ~~TEMP-Sensor ausprobieren~~
-- XFW ausprobieren
-- Waage konfiguieren
+- ~~XFW ausprobieren~~
+- ~~Waage konfiguieren~~
 - ~~WLAN & InfluxDB einrichten~~
-- Code zusammenfügen
+- ~~Code zusammenfügen~~
+- Wake-Up funktion
+- Daten an Server schicken
 
 ## Dokumentation
 - Journal
