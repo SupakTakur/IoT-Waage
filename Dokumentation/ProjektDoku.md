@@ -140,11 +140,61 @@ Zur Darstellung der Daten wird Grafana eingesetzt. Grafana ermöglicht das Erste
 
 ## 3.1 Funktionale Anforderungen
 
+Die elektronische IoT-Waage muss folgende funktionale Anforderungen erfüllen:
+
+- Die Waage misst das **Gesamtgewicht** einer aufgelegten Last mittels **vier Wägezellen**.
+- Der **Messbereich** der Waage beträgt **0 bis 100 kg**.
+- Die Gewichtsmessung erfolgt **periodisch alle 60 Sekunden**.
+- Zusätzlich wird die **Temperatur der Last** mit einem digitalen Temperatursensor gemessen.
+- Die aktuellen Messwerte (**Gewicht in kg, Temperatur in °C**) werden auf einem **OLED-Display** angezeigt.
+- Die Messwerte werden **drahtlos über WLAN** an eine **InfluxDB-Datenbank** übertragen.
+- Die gespeicherten Daten können in **Grafana** als Zeitreihe visualisiert werden.
+- Die Waage verfügt über eine **Software-Kalibrierfunktion**.
+- Die Messung bleibt auch bei **ungleicher Lastverteilung** funktionsfähig.
+- Die Software läuft auf einem **ESP32-Mikrocontroller** und startet nach dem Einschalten automatisch.
+
 ## 3.2 Nicht-funktionale Anforderungen
+
+Neben der reinen Funktionalität gelten folgende nicht-funktionale Anforderungen:
+
+- Die Gewichtsanzeige ist **stabil** und zeigt im Ruhezustand keine stark schwankenden Werte.
+- Die Messwerte werden **nachvollziehbar und reproduzierbar** erfasst.
+- Die Software ist **strukturiert**, modular aufgebaut und ausreichend **kommentiert**.
+- Alle Schaltpläne werden **übersichtlich und normgerecht** in **KiCad** erstellt.
+- Mechanische Bauteile werden **sauber konstruiert** und **passgenau** gefertigt.
+- Die Dokumentation ist **vollständig**, **verständlich** und **technisch korrekt**.
+- Der gesamte Entwicklungsprozess wird mit **Git** versioniert.
+- Die Messdatenübertragung ist **robust** gegenüber kurzen WLAN-Unterbrüchen.
+- Die Stromversorgung erfolgt sicher über **USB 5 V**.
+- Es werden ausschliesslich **frei verfügbare oder lizenzierte Bibliotheken** verwendet.
 
 ## 3.3 Abnahmekriterien
 
+Das Projekt gilt als erfolgreich abgeschlossen, wenn folgende Kriterien erfüllt sind:
+
+- Die Waage zeigt bei bekannten Prüfgewichten **plausible und reproduzierbare Messergebnisse**.
+- Gewicht und Temperatur werden **korrekt auf dem OLED-Display** dargestellt.
+- Messwerte werden **regelmässig in der InfluxDB gespeichert**.
+- Die Messdaten sind in **Grafana** visualisierbar.
+- Die Kalibrierung ist **dokumentiert** und nachvollziehbar.
+- Der Schaltplan ist vollständig und entspricht dem realen Aufbau.
+- Die mechanischen Bauteile erfüllen ihre Funktion ohne Beschädigung.
+- Die Software lässt sich **kompilieren, flashen und starten**.
+- Der gesamte Projektcode ist im **GitHub-Repository** vorhanden.
+- Die Dokumentation deckt alle geforderten Kapitel ab.
+
 ## 3.4 Risiken & Herausforderungen
+
+Während der Projektumsetzung bestehen folgende Risiken und Herausforderungen:
+
+- **Ungleichmässige Lastverteilung** kann zu Messabweichungen führen.
+- **Mechanische Toleranzen** im 3D-Druck können die Genauigkeit beeinflussen.
+- **Temperaturdrift** der Wägezellen kann Messwerte verfälschen.
+- **Elektrisches Rauschen** kann die Messung des HX711 beeinträchtigen.
+- **Kalibrierung** mehrerer Wägezellen erfordert erhöhte Sorgfalt.
+- **WLAN-Verbindungsprobleme** können zu Datenverlust führen.
+- **Zeitmanagement** bei paralleler Hard- und Softwareentwicklung.
+- **Fehlende Erfahrung** mit bestimmten Messverfahren kann Mehraufwand verursachen.
 
 ------------------------------------------------------------------------
 
