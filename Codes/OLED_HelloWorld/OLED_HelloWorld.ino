@@ -8,8 +8,8 @@ void setup() {
   display.begin();
   display.clearBuffer();
   display.setFont(u8g2_font_ncenB14_tr);
-  display.drawStr(0, 30, "pusi");
-  display.drawStr(0, 60, "kurac");
+  display.drawStr(0, 30, "Hello");
+  display.drawStr(0, 60, "World");
   display.sendBuffer();
 }
 
